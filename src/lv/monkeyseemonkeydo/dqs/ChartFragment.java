@@ -4,7 +4,6 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -35,10 +34,12 @@ public class ChartFragment extends Fragment {
 
 		Bundle args = getArguments();
 		mDate = args.getString(ARG_DATE);
+		mScore = 0;
+
 		SharedPreferences prefs = getActivity().getSharedPreferences("DQS", Context.MODE_PRIVATE);
 		mSelections = new StringBuffer(prefs.getString(mDate,
 				"000000000000000000000000000000000000000000000000000000000000"));
-		Log.d("DQS", mDate + ": " + mSelections.toString());
+		
 		View v = inflater.inflate(R.layout.chart, null);
 
 		for (int i = 0; i < CELLS.length; i++) {
