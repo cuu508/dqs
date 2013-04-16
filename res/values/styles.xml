@@ -23,5 +23,10 @@
         <item name="android:paddingTop">4dip</item>
         <item name="android:paddingBottom">4dip</item>
     </style>
+    
+    <style name="FoodType">
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    
 
 </resources>

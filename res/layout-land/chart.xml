@@ -1,13 +1,88 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="fill_parent"
-    android:orientation="vertical" >
+    android:layout_height="match_parent" >
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="100dip"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dip"
+                android:layout_marginRight="4dip"
+                android:layout_weight="3"
+                android:gravity="bottom"
+                android:text="HIGH"
+                android:textSize="24dip" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dip"
+                android:layout_marginRight="4dip"
+                android:layout_weight="3"
+                android:text="QUALITY"
+                android:textSize="16dip" />
+            
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dip"
+                android:layout_marginLeft="4dip"
+                android:layout_weight="2"
+                android:gravity="bottom"
+                android:text="LOW"
+                android:textSize="24dip" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dip"
+                android:layout_marginLeft="4dip"
+                android:layout_weight="2"
+                android:text="QUALITY"
+                android:textSize="16dip" />            
+            
+        </LinearLayout>
+        
+        <View android:layout_width="0dip"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+        
+        <LinearLayout
+            android:layout_width="100dip"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dip"
+                android:layout_marginRight="4dip"
+                android:layout_weight="1"
+                android:gravity="bottom"
+                android:text="SCORE"
+                android:textSize="24dip" />
+
+            <TextView
+                android:id="@+id/score"
+                android:layout_width="wrap_content"
+                android:layout_height="0dip"
+                android:layout_marginLeft="4dip"
+                android:layout_weight="1"
+                android:text="6"
+                android:textSize="24dip"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+    
+    
     <TableLayout
         android:layout_width="match_parent"
-        android:layout_height="0dip"
-        android:layout_weight="1"
+        android:layout_height="match_parent"
         android:shrinkColumns="0"
         android:stretchColumns="*" >
 
@@ -15,23 +90,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#33B5E5"
-            android:paddingLeft="4dip"
-            android:paddingTop="4dip" >
+            android:padding="4dip" >
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="50dip"
                 android:layout_height="wrap_content"
-                android:layout_span="7"
-                android:text="HIGH QUALITY"
-                android:textColor="#FFF"
-                android:textSize="20sp" />
-        </TableRow>
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#33B5E5"
-            android:padding="4dip" >
+                android:text=""
+                android:textColor="#FFF" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -80,6 +145,12 @@
                 android:gravity="center"
                 android:text="6TH"
                 android:textColor="#FFF" />
+
+            <TextView
+                android:layout_width="50dip"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="#FFF" />
         </TableRow>
 
         <TableRow
@@ -87,6 +158,11 @@
             android:layout_height="0dip"
             android:layout_weight="1"
             android:paddingLeft="4dip" >
+
+            <TextView
+                android:layout_width="50dip"
+                android:layout_height="wrap_content"
+                android:text="" />
 
             <TextView
                 style="@style/FoodType"
@@ -145,14 +221,18 @@
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="#DDD" >
+            android:layout_height="1dp" >
+
+            <TextView
+                android:layout_width="50dip"
+                android:layout_height="1dp"
+                android:text="" />
 
             <View
                 android:layout_width="wrap_content"
                 android:layout_height="1dp"
-                android:layout_span="7" />
-
+                android:layout_span="7"
+                android:background="#DDD" />
         </TableRow>
 
         <TableRow
@@ -160,6 +240,12 @@
             android:layout_height="0dip"
             android:layout_weight="1"
             android:paddingLeft="4dip" >
+
+            <TextView
+                android:layout_width="50dip"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="#FFF" />
 
             <TextView
                 style="@style/FoodType"
@@ -218,20 +304,31 @@
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="#DDD" >
+            android:layout_height="1dp" >
+
+            <TextView
+                android:layout_width="50dip"
+                android:layout_height="1dp"
+                android:text="" />
 
             <View
+                android:layout_width="wrap_content"
                 android:layout_height="1dp"
-                android:layout_span="7" />
+                android:layout_span="7"
+                android:background="#DDD" />
         </TableRow>
 
         <TableRow
             android:layout_width="match_parent"
-            android:gravity="center_vertical"
             android:layout_height="0dip"
             android:layout_weight="1"
+            android:gravity="center_vertical"
             android:paddingLeft="4dip" >
+
+            <TextView
+                android:layout_width="50dip"
+                android:layout_height="wrap_content"
+                android:text="" />
 
             <TextView
                 style="@style/FoodType"
@@ -291,12 +388,18 @@
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="#DDD" >
+            android:layout_height="1dp" >
+
+            <TextView
+                android:layout_width="50dip"
+                android:layout_height="1dp"
+                android:text="" />
 
             <View
+                android:layout_width="wrap_content"
                 android:layout_height="1dp"
-                android:layout_span="7" />
+                android:layout_span="7"
+                android:background="#DDD" />
         </TableRow>
 
         <TableRow
@@ -304,6 +407,11 @@
             android:layout_height="0dip"
             android:layout_weight="1"
             android:paddingLeft="4dip" >
+
+            <TextView
+                android:layout_width="50dip"
+                android:layout_height="wrap_content"
+                android:text="" />
 
             <TextView
                 style="@style/FoodType"
@@ -364,12 +472,18 @@
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="#DDD" >
+            android:layout_height="1dp" >
+
+            <TextView
+                android:layout_width="50dip"
+                android:layout_height="1dp"
+                android:text="" />
 
             <View
+                android:layout_width="wrap_content"
                 android:layout_height="1dp"
-                android:layout_span="7" />
+                android:layout_span="7"
+                android:background="#DDD" />
         </TableRow>
 
         <TableRow
@@ -377,6 +491,11 @@
             android:layout_height="0dip"
             android:layout_weight="1"
             android:paddingLeft="4dip" >
+
+            <TextView
+                android:layout_width="50dip"
+                android:layout_height="wrap_content"
+                android:text="" />
 
             <TextView
                 style="@style/FoodType"
@@ -435,12 +554,18 @@
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="#DDD" >
+            android:layout_height="1dp" >
+
+            <TextView
+                android:layout_width="50dip"
+                android:layout_height="1dp"
+                android:text="" />
 
             <View
+                android:layout_width="wrap_content"
                 android:layout_height="1dp"
-                android:layout_span="7" />
+                android:layout_span="7"
+                android:background="#DDD" />
         </TableRow>
 
         <TableRow
@@ -448,6 +573,11 @@
             android:layout_height="0dip"
             android:layout_weight="1"
             android:paddingLeft="4dip" >
+
+            <TextView
+                android:layout_width="50dip"
+                android:layout_height="wrap_content"
+                android:text="" />
 
             <TextView
                 style="@style/FoodType"
@@ -507,72 +637,67 @@
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#33B5E5"
-            android:paddingLeft="4dip"
-            android:paddingTop="4dip" >
+            android:padding="4dip" >
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="50dip"
                 android:layout_height="wrap_content"
-                android:layout_span="7"
-                android:text="LOW QUALITY"
-                android:textColor="#FFF"
-                android:textSize="20sp" />
-        </TableRow>
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:background="#33B5E5"
-            android:layout_height="wrap_content"
-            android:padding="4dip" >
+                android:text="" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:text="FOOD TYPE"
-                android:textColor="#FFF" />
+                android:background="#DDD"
+                android:textColor="#000" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:gravity="center"
                 android:text="1ST"
-                android:textColor="#FFF" />
+                android:background="#DDD"
+                android:textColor="#000" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:gravity="center"
                 android:text="2ND"
-                android:textColor="#FFF" />
+                android:background="#DDD"
+                android:textColor="#000" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:gravity="center"
                 android:text="3RD"
-                android:textColor="#FFF" />
+                android:background="#DDD"
+                android:textColor="#000" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:gravity="center"
                 android:text="4TH"
-                android:textColor="#FFF" />
+                android:background="#DDD"
+                android:textColor="#000" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:gravity="center"
                 android:text="5TH"
-                android:textColor="#FFF" />
+                android:background="#DDD"
+                android:textColor="#000" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
                 android:text="6TH"
-                android:textColor="#FFF" />
+                android:background="#DDD"
+                android:textColor="#000" />
         </TableRow>
 
         <TableRow
@@ -580,6 +705,11 @@
             android:layout_height="0dip"
             android:layout_weight="1"
             android:paddingLeft="4dip" >
+
+            <TextView
+                android:layout_width="50dip"
+                android:layout_height="wrap_content"
+                android:text="" />
 
             <TextView
                 style="@style/FoodType"
@@ -638,12 +768,18 @@
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="#DDD" >
+            android:layout_height="1dp" >
+
+            <TextView
+                android:layout_width="50dip"
+                android:layout_height="1dp"
+                android:text="" />
 
             <View
+                android:layout_width="wrap_content"
                 android:layout_height="1dp"
-                android:layout_span="7" />
+                android:layout_span="7"
+                android:background="#DDD" />
         </TableRow>
 
         <TableRow
@@ -651,6 +787,11 @@
             android:layout_height="0dip"
             android:layout_weight="1"
             android:paddingLeft="4dip" >
+
+            <TextView
+                android:layout_width="50dip"
+                android:layout_height="wrap_content"
+                android:text="" />
 
             <TextView
                 style="@style/FoodType"
@@ -709,12 +850,18 @@
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="#DDD" >
+            android:layout_height="1dp" >
+
+            <TextView
+                android:layout_width="50dip"
+                android:layout_height="1dp"
+                android:text="" />
 
             <View
+                android:layout_width="wrap_content"
                 android:layout_height="1dp"
-                android:layout_span="7" />
+                android:layout_span="7"
+                android:background="#DDD" />
         </TableRow>
 
         <TableRow
@@ -722,6 +869,11 @@
             android:layout_height="0dip"
             android:layout_weight="1"
             android:paddingLeft="4dip" >
+
+            <TextView
+                android:layout_width="50dip"
+                android:layout_height="wrap_content"
+                android:text="" />
 
             <TextView
                 style="@style/FoodType"
@@ -780,12 +932,18 @@
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="#DDD" >
+            android:layout_height="1dp" >
+
+            <TextView
+                android:layout_width="50dip"
+                android:layout_height="1dp"
+                android:text="" />
 
             <View
+                android:layout_width="wrap_content"
                 android:layout_height="1dp"
-                android:layout_span="7" />
+                android:layout_span="7"
+                android:background="#DDD" />
         </TableRow>
 
         <TableRow
@@ -793,6 +951,11 @@
             android:layout_height="0dip"
             android:layout_weight="1"
             android:paddingLeft="4dip" >
+
+            <TextView
+                android:layout_width="50dip"
+                android:layout_height="wrap_content"
+                android:text="" />
 
             <TextView
                 style="@style/FoodType"
@@ -850,29 +1013,5 @@
         </TableRow>
     </TableLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="50dip"
-        android:gravity="center_vertical">
 
-        <TextView
-            android:layout_width="0dip"
-            android:layout_height="wrap_content"
-            android:layout_marginRight="4dip"
-            android:layout_weight="1"
-            android:gravity="right"
-            android:text="SCORE"
-            android:textSize="24dip" />
-
-        <TextView
-            android:id="@+id/score"
-            android:layout_width="0dip"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="4dip"
-            android:layout_weight="1"
-            android:text="6"
-            android:textSize="24dip"
-            android:textStyle="bold" />
-    </LinearLayout>
-
-</LinearLayout>
+</FrameLayout>

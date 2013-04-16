@@ -13,4 +13,8 @@ This is an app to calculate DQS for each day. Here's how to use it:
  
 Happy eating!
 
+![Crash Boom](http://i.imgur.com/P7MwMWB.png)
+
+![Bang](http://i.imgur.com/aug7yYv.png)
+
 
