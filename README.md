@@ -10,6 +10,8 @@ This is an app to calculate DQS for each day. Here's how to use it:
  * Install this app on your under-used Android tablet
  * Tap food items as you eat them, or all at once at the end of day
  * Once a while write the scores down on paper, as this app will *eat your data*
+
+[Get it on Google Plus](https://play.google.com/store/apps/details?id=lv.monkeyseemonkeydo.dqs)
  
 Happy eating!
 
