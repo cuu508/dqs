@@ -25,6 +25,7 @@
     
     <style name="FoodType">
         <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingRight">8dip</item>
     </style>
     
 

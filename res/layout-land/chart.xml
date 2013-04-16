@@ -20,15 +20,15 @@
                 android:layout_marginRight="4dip"
                 android:layout_weight="3"
                 android:gravity="bottom"
-                android:text="HIGH"
-                android:textSize="24dip" />
+                android:text="@string/title_high"
+                android:textSize="24sp" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="0dip"
                 android:layout_marginRight="4dip"
                 android:layout_weight="3"
-                android:text="QUALITY"
-                android:textSize="16dip" />
+                android:text="@string/title_quality"
+                android:textSize="16sp" />
             
             <TextView
                 android:layout_width="wrap_content"
@@ -36,15 +36,15 @@
                 android:layout_marginLeft="4dip"
                 android:layout_weight="2"
                 android:gravity="bottom"
-                android:text="LOW"
-                android:textSize="24dip" />
+                android:text="@string/title_low"
+                android:textSize="24sp" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="0dip"
                 android:layout_marginLeft="4dip"
                 android:layout_weight="2"
-                android:text="QUALITY"
-                android:textSize="16dip" />            
+                android:text="@string/title_quality"
+                android:textSize="16sp" />            
             
         </LinearLayout>
         
@@ -65,7 +65,7 @@
                 android:layout_weight="1"
                 android:gravity="bottom"
                 android:text="@string/title_score"
-                android:textSize="24dip" />
+                android:textSize="24sp" />
 
             <TextView
                 android:id="@+id/score"
@@ -73,8 +73,7 @@
                 android:layout_height="0dip"
                 android:layout_marginLeft="4dip"
                 android:layout_weight="1"
-                android:text="6"
-                android:textSize="24dip"
+                android:textSize="24sp"
                 android:textStyle="bold" />
         </LinearLayout>
     </LinearLayout>
@@ -641,69 +640,14 @@
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="4dip" >
+            android:layout_height="1dp" >
 
-            <TextView
-                android:layout_width="50dip"
-                android:layout_height="wrap_content"
-                android:text="" />
-
-            <TextView
+            <View
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:text="@string/title_food_type"
-                android:background="#DDD"
-                android:textColor="#000" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:gravity="center"
-                android:text="@string/title_1st"
-                android:background="#DDD"
-                android:textColor="#000" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:gravity="center"
-                android:text="@string/title_2nd"
-                android:background="#DDD"
-                android:textColor="#000" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:gravity="center"
-                android:text="@string/title_3rd"
-                android:background="#DDD"
-                android:textColor="#000" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:gravity="center"
-                android:text="@string/title_4th"
-                android:background="#DDD"
-                android:textColor="#000" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:gravity="center"
-                android:text="@string/title_5th"
-                android:background="#DDD"
-                android:textColor="#000" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center"
-                android:text="@string/title_6th"
-                android:background="#DDD"
-                android:textColor="#000" />
-        </TableRow>
+                android:layout_height="1dp"
+                android:layout_span="8"
+                android:background="#DDD" />
+        </TableRow>        
 
         <TableRow
             android:layout_width="match_parent"
