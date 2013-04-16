@@ -22,7 +22,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_span="7"
-                android:text="HIGH QUALITY"
+                android:text="@string/title_high_quality"
                 android:textColor="#FFF"
                 android:textSize="20sp" />
         </TableRow>
@@ -36,49 +36,49 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="FOOD TYPE"
+                android:text="@string/title_food_type"
                 android:textColor="#FFF" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="1ST"
+                android:text="@string/title_1st"
                 android:textColor="#FFF" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="2ND"
+                android:text="@string/title_2nd"
                 android:textColor="#FFF" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="3RD"
+                android:text="@string/title_3rd"
                 android:textColor="#FFF" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="4TH"
+                android:text="@string/title_4th"
                 android:textColor="#FFF" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="5TH"
+                android:text="@string/title_5th"
                 android:textColor="#FFF" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="6TH"
+                android:text="@string/title_6th"
                 android:textColor="#FFF" />
         </TableRow>
 
@@ -92,7 +92,7 @@
                 style="@style/FoodType"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="Fruits" />
+                android:text="@string/type_fruits" />
 
             <TextView
                 android:id="@+id/c11"
@@ -100,7 +100,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:tag="0"
-                android:text="2" />
+                android:text="@string/value_2" />
 
             <TextView
                 android:id="@+id/c12"
@@ -108,7 +108,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:tag="1"
-                android:text="2" />
+                android:text="@string/value_2" />
 
             <TextView
                 android:id="@+id/c13"
@@ -116,7 +116,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:tag="2"
-                android:text="2" />
+                android:text="@string/value_2" />
 
             <TextView
                 android:id="@+id/c14"
@@ -124,7 +124,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:tag="3"
-                android:text="1" />
+                android:text="@string/value_1" />
 
             <TextView
                 android:id="@+id/c15"
@@ -132,7 +132,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:tag="4"
-                android:text="0" />
+                android:text="@string/value_0" />
 
             <TextView
                 android:id="@+id/c16"
@@ -140,7 +140,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:tag="5"
-                android:text="0" />
+                android:text="@string/value_0" />
         </TableRow>
 
         <TableRow
@@ -165,7 +165,7 @@
                 style="@style/FoodType"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="Vegetables" />
+                android:text="@string/type_vegetables" />
 
             <TextView
                 android:id="@+id/c21"
@@ -173,7 +173,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:tag="6"
-                android:text="2" />
+                android:text="@string/value_2" />
 
             <TextView
                 android:id="@+id/c22"
@@ -181,7 +181,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:tag="7"
-                android:text="2" />
+                android:text="@string/value_2" />
 
             <TextView
                 android:id="@+id/c23"
@@ -189,7 +189,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:tag="8"
-                android:text="2" />
+                android:text="@string/value_2" />
 
             <TextView
                 android:id="@+id/c24"
@@ -197,7 +197,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:tag="9"
-                android:text="1" />
+                android:text="@string/value_1" />
 
             <TextView
                 android:id="@+id/c25"
@@ -205,7 +205,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:tag="10"
-                android:text="0" />
+                android:text="@string/value_0" />
 
             <TextView
                 android:id="@+id/c26"
@@ -213,7 +213,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:tag="11"
-                android:text="0" />
+                android:text="@string/value_0" />
         </TableRow>
 
         <TableRow
@@ -238,7 +238,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:singleLine="false"
-                android:text="Lean m. &amp; fish" />
+                android:text="@string/type_lean_meats" />
 
             <TextView
                 android:id="@+id/c31"
@@ -246,7 +246,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:tag="12"
-                android:text="2" />
+                android:text="@string/value_2" />
 
             <TextView
                 android:id="@+id/c32"
@@ -254,7 +254,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:tag="13"
-                android:text="2" />
+                android:text="@string/value_2" />
 
             <TextView
                 android:id="@+id/c33"
@@ -262,7 +262,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:tag="14"
-                android:text="1" />
+                android:text="@string/value_1" />
 
             <TextView
                 android:id="@+id/c34"
@@ -270,7 +270,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:tag="15"
-                android:text="0" />
+                android:text="@string/value_0" />
 
             <TextView
                 android:id="@+id/c35"
@@ -278,7 +278,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:tag="16"
-                android:text="0" />
+                android:text="@string/value_0" />
 
             <TextView
                 android:id="@+id/c36"
@@ -286,7 +286,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:tag="17"
-                android:text="-1" />
+                android:text="@string/value_minus_1" />
         </TableRow>
 
         <TableRow
@@ -309,7 +309,7 @@
                 style="@style/FoodType"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="Nuts &amp; seeds" />
+                android:text="@string/type_nuts_seeds" />
 
             <TextView
                 android:id="@+id/c41"
@@ -317,7 +317,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:tag="18"
-                android:text="2" />
+                android:text="@string/value_2" />
 
             <TextView
                 android:id="@+id/c42"
@@ -325,7 +325,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:tag="19"
-                android:text="2" />
+                android:text="@string/value_2" />
 
             <TextView
                 android:id="@+id/c43"
@@ -334,7 +334,7 @@
                 android:layout_height="match_parent"
                 android:gravity="center"
                 android:tag="20"
-                android:text="1"
+                android:text="@string/value_1"
                 android:textSize="16sp" />
 
             <TextView
@@ -343,7 +343,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:tag="21"
-                android:text="0" />
+                android:text="@string/value_0" />
 
             <TextView
                 android:id="@+id/c45"
@@ -351,7 +351,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:tag="22"
-                android:text="0" />
+                android:text="@string/value_0" />
 
             <TextView
                 android:id="@+id/c46"
@@ -359,7 +359,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:tag="23"
-                android:text="-1" />
+                android:text="@string/value_minus_1" />
         </TableRow>
 
         <TableRow
@@ -382,7 +382,7 @@
                 style="@style/FoodType"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="Whole grains" />
+                android:text="@string/type_whole_grains" />
 
             <TextView
                 android:id="@+id/c51"
@@ -390,7 +390,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:tag="24"
-                android:text="2" />
+                android:text="@string/value_2" />
 
             <TextView
                 android:id="@+id/c52"
@@ -398,7 +398,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:tag="25"
-                android:text="2" />
+                android:text="@string/value_2" />
 
             <TextView
                 android:id="@+id/c53"
@@ -406,7 +406,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:tag="26"
-                android:text="1" />
+                android:text="@string/value_1" />
 
             <TextView
                 android:id="@+id/c54"
@@ -414,7 +414,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:tag="27"
-                android:text="0" />
+                android:text="@string/value_0" />
 
             <TextView
                 android:id="@+id/c55"
@@ -422,7 +422,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:tag="28"
-                android:text="0" />
+                android:text="@string/value_0" />
 
             <TextView
                 android:id="@+id/c56"
@@ -430,7 +430,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:tag="29"
-                android:text="-1" />
+                android:text="@string/value_minus_1" />
         </TableRow>
 
         <TableRow
@@ -453,7 +453,7 @@
                 style="@style/FoodType"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="Dairy" />
+                android:text="@string/type_dairy" />
 
             <TextView
                 android:id="@+id/c61"
@@ -461,7 +461,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:tag="30"
-                android:text="1" />
+                android:text="@string/value_1" />
 
             <TextView
                 android:id="@+id/c62"
@@ -469,7 +469,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:tag="31"
-                android:text="1" />
+                android:text="@string/value_1" />
 
             <TextView
                 android:id="@+id/c63"
@@ -477,7 +477,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:tag="32"
-                android:text="1" />
+                android:text="@string/value_1" />
 
             <TextView
                 android:id="@+id/c64"
@@ -485,7 +485,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:tag="33"
-                android:text="0" />
+                android:text="@string/value_0" />
 
             <TextView
                 android:id="@+id/c65"
@@ -493,7 +493,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:tag="34"
-                android:text="-1" />
+                android:text="@string/value_minus_1" />
 
             <TextView
                 android:id="@+id/c66"
@@ -501,7 +501,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:tag="35"
-                android:text="-2" />
+                android:text="@string/value_minus_2" />
         </TableRow>
 
         <TableRow
@@ -515,7 +515,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_span="7"
-                android:text="LOW QUALITY"
+                android:text="@string/title_low_quality"
                 android:textColor="#FFF"
                 android:textSize="20sp" />
         </TableRow>
@@ -529,49 +529,49 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="FOOD TYPE"
+                android:text="@string/title_food_type"
                 android:textColor="#FFF" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:gravity="center"
-                android:text="1ST"
+                android:text="@string/title_1st"
                 android:textColor="#FFF" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:gravity="center"
-                android:text="2ND"
+                android:text="@string/title_2nd"
                 android:textColor="#FFF" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:gravity="center"
-                android:text="3RD"
+                android:text="@string/title_3rd"
                 android:textColor="#FFF" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:gravity="center"
-                android:text="4TH"
+                android:text="@string/title_4th"
                 android:textColor="#FFF" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:gravity="center"
-                android:text="5TH"
+                android:text="@string/title_5th"
                 android:textColor="#FFF" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
-                android:text="6TH"
+                android:text="@string/title_6th"
                 android:textColor="#FFF" />
         </TableRow>
 
@@ -585,7 +585,7 @@
                 style="@style/FoodType"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="Refined grains" />
+                android:text="@string/type_refined_grains" />
 
             <TextView
                 android:id="@+id/c71"
@@ -593,7 +593,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:tag="36"
-                android:text="-1" />
+                android:text="@string/value_minus_1" />
 
             <TextView
                 android:id="@+id/c72"
@@ -601,7 +601,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:tag="37"
-                android:text="-1" />
+                android:text="@string/value_minus_1" />
 
             <TextView
                 android:id="@+id/c73"
@@ -609,7 +609,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:tag="38"
-                android:text="-2" />
+                android:text="@string/value_minus_2" />
 
             <TextView
                 android:id="@+id/c74"
@@ -617,7 +617,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:tag="39"
-                android:text="-2" />
+                android:text="@string/value_minus_2" />
 
             <TextView
                 android:id="@+id/c75"
@@ -625,7 +625,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:tag="40"
-                android:text="-2" />
+                android:text="@string/value_minus_2" />
 
             <TextView
                 android:id="@+id/c76"
@@ -633,7 +633,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:tag="41"
-                android:text="-2" />
+                android:text="@string/value_minus_2" />
         </TableRow>
 
         <TableRow
@@ -656,7 +656,7 @@
                 style="@style/FoodType"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="Sweets" />
+                android:text="@string/type_sweets" />
 
             <TextView
                 android:id="@+id/c81"
@@ -664,7 +664,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:tag="42"
-                android:text="-2" />
+                android:text="@string/value_minus_2" />
 
             <TextView
                 android:id="@+id/c82"
@@ -672,7 +672,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:tag="43"
-                android:text="-2" />
+                android:text="@string/value_minus_2" />
 
             <TextView
                 android:id="@+id/c83"
@@ -680,7 +680,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:tag="44"
-                android:text="-2" />
+                android:text="@string/value_minus_2" />
 
             <TextView
                 android:id="@+id/c84"
@@ -688,7 +688,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:tag="45"
-                android:text="-2" />
+                android:text="@string/value_minus_2" />
 
             <TextView
                 android:id="@+id/c85"
@@ -696,7 +696,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:tag="46"
-                android:text="-2" />
+                android:text="@string/value_minus_2" />
 
             <TextView
                 android:id="@+id/c86"
@@ -704,7 +704,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:tag="47"
-                android:text="-2" />
+                android:text="@string/value_minus_2" />
         </TableRow>
 
         <TableRow
@@ -727,7 +727,7 @@
                 style="@style/FoodType"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="Fried foods" />
+                android:text="@string/type_fried_foods" />
 
             <TextView
                 android:id="@+id/c91"
@@ -735,7 +735,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:tag="48"
-                android:text="-2" />
+                android:text="@string/value_minus_2" />
 
             <TextView
                 android:id="@+id/c92"
@@ -743,7 +743,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:tag="49"
-                android:text="-2" />
+                android:text="@string/value_minus_2" />
 
             <TextView
                 android:id="@+id/c93"
@@ -751,7 +751,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:tag="50"
-                android:text="-2" />
+                android:text="@string/value_minus_2" />
 
             <TextView
                 android:id="@+id/c94"
@@ -759,7 +759,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:tag="51"
-                android:text="-2" />
+                android:text="@string/value_minus_2" />
 
             <TextView
                 android:id="@+id/c95"
@@ -767,7 +767,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:tag="42"
-                android:text="-2" />
+                android:text="@string/value_minus_2" />
 
             <TextView
                 android:id="@+id/c96"
@@ -775,7 +775,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:tag="53"
-                android:text="-2" />
+                android:text="@string/value_minus_2" />
         </TableRow>
 
         <TableRow
@@ -798,7 +798,7 @@
                 style="@style/FoodType"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="Fatty proteins" />
+                android:text="@string/type_fatty_proteins" />
 
             <TextView
                 android:id="@+id/cx1"
@@ -806,7 +806,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:tag="54"
-                android:text="-1" />
+                android:text="@string/value_minus_1" />
 
             <TextView
                 android:id="@+id/cx2"
@@ -814,7 +814,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:tag="55"
-                android:text="-1" />
+                android:text="@string/value_minus_1" />
 
             <TextView
                 android:id="@+id/cx3"
@@ -822,7 +822,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:tag="56"
-                android:text="-2" />
+                android:text="@string/value_minus_2" />
 
             <TextView
                 android:id="@+id/cx4"
@@ -830,7 +830,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:tag="57"
-                android:text="-2" />
+                android:text="@string/value_minus_2" />
 
             <TextView
                 android:id="@+id/cx5"
@@ -838,7 +838,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:tag="58"
-                android:text="-2" />
+                android:text="@string/value_minus_2" />
 
             <TextView
                 android:id="@+id/cx6"
@@ -846,32 +846,29 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:tag="59"
-                android:text="-2" />
+                android:text="@string/value_minus_2" />
         </TableRow>
     </TableLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="50dip"
-        android:gravity="center_vertical">
+        android:gravity="center">
 
         <TextView
-            android:layout_width="0dip"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="4dip"
-            android:layout_weight="1"
             android:gravity="right"
-            android:text="SCORE"
-            android:textSize="24dip" />
+            android:text="@string/title_score"
+            android:textSize="24sp" />
 
         <TextView
             android:id="@+id/score"
-            android:layout_width="0dip"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="4dip"
-            android:layout_weight="1"
-            android:text="6"
-            android:textSize="24dip"
+            android:textSize="24sp"
             android:textStyle="bold" />
     </LinearLayout>
 

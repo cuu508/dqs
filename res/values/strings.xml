@@ -2,10 +2,31 @@
 <resources>
 
     <string name="app_name">DQS</string>
-    <string name="title_section3">Section 3</string>
-    <string name="title_section2">Section 2</string>
-    <string name="title_section1">Section 1</string>
-    <string name="hello_world">Hello world!</string>
     <string name="menu_settings">Settings</string>
+    <string name="type_fruits">Fruits</string>
+    <string name="type_vegetables">Vegetables</string>
+    <string name="type_lean_meats">Lean m. &amp;amp; fish</string>
+    <string name="type_nuts_seeds">Nuts &amp;amp; seeds</string>
+    <string name="type_whole_grains">Whole grains</string>
+    <string name="type_dairy">Dairy</string>
+    <string name="title_food_type">FOOD TYPE</string>
+    <string name="title_1st">1ST</string>
+    <string name="title_2nd">2ND</string>
+    <string name="title_3rd">3RD</string>
+    <string name="title_4th">4TH</string>
+    <string name="title_5th">5TH</string>
+    <string name="title_6th">6TH</string>
+    <string name="type_refined_grains">Refined grains</string>
+    <string name="type_sweets">Sweets</string>
+    <string name="type_fried_foods">Fried foods</string>
+    <string name="type_fatty_proteins">Fatty proteins</string>
+    <string name="title_score">SCORE</string>
+    <string name="title_high_quality">HIGH QUALITY</string>
+    <string name="title_low_quality">LOW QUALITY</string>
+    <string name="value_2">2</string>
+    <string name="value_1">1</string>
+    <string name="value_0">0</string>
+    <string name="value_minus_1">-1</string>
+    <string name="value_minus_2">-2</string>
 
 </resources>
