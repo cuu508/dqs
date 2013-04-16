@@ -867,7 +867,7 @@
                 style="@style/Cell"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:tag="42"
+                android:tag="52"
                 android:text="@string/value_minus_2" />
 
             <TextView
